@@ -19,13 +19,26 @@ run Main.ipynb
 
 parameter:
 
-c_dx: classifier method index (give BR for example)
+c_dx: classifier method index (give MLkNN for example)
 
 OptmParameter is used to Get_W
 paracombine: is a list, with each element being a tuple. The first element is 'alpha' and the second element is 'beta' in a tuple.
 
 sp:sampling rate
 
+Result printing format(Output the average result and standard deviation of 5 *2 folds, in the following order:
+    np.mean(Macro_F),
+    np.mean(Micro_F),
+    np.mean(Macro_AUC),
+    np.mean(Ranking_loss),
+    np.mean(Hamming_loss),
+    np.mean(One_error),
+    np.std(Macro_F),
+    np.std(Micro_F),
+    np.std(Macro_AUC),
+    np.std(Ranking_loss),
+    np.std(Hamming_loss),
+    np.std(One_error)
 
 # Other
 
