@@ -26,7 +26,9 @@ paracombine: is a list, with each element being a tuple. The first element is 'a
 
 sp:sampling rate
 
-Result printing format(Output the average result and standard deviation of 5 *2 folds, in the following order:
+Result printing format
+
+(Output the average result and standard deviation of 5 *2 folds, in the following order:
     np.mean(Macro_F),
     np.mean(Micro_F),
     np.mean(Macro_AUC),
