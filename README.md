@@ -1,5 +1,6 @@
 
-# Requirements numpy 1.21.5
+# Requirements 
+numpy 1.21.5
 
 pytorch 1.11.0
 
